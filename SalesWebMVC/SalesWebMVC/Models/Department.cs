@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace SalesWebMVC.Models.ViewModel
+namespace SalesWebMVC.Models
 {
     public class Department
     {
@@ -12,6 +12,10 @@ namespace SalesWebMVC.Models.ViewModel
         {
             Name = name;
             Id = id;
+        }
+
+        public Department()
+        {
         }
     }
 }
